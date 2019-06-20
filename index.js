@@ -9,6 +9,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   return object
 }
 function deleteFromObjectByKey(object, key){
-  car apple = delete object[key];
+  var apple = delete object[key];
   return object
 }
