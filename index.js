@@ -17,3 +17,4 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return object = delete object.key
   
 }
+console.log(recipes)
