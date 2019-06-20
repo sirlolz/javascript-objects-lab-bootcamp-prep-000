@@ -18,4 +18,3 @@ function destructivelyDeleteFromObjectByKey(object, key){
   console.log(recipes)
   return object
 }
-cosole.log('what am i doing')
