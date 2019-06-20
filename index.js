@@ -10,6 +10,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 }
 function deleteFromObjectByKey(object, key){
   var dupeRecipe = recipes
-  delete 
+  delete object.key
   return 
 }
