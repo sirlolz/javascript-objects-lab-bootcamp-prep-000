@@ -14,6 +14,6 @@ function deleteFromObjectByKey(object, key){
   return dupeRecipe
 }
 function destructivelyDeleteFromObjectByKey(object, key){
-  delete object.key;
-  return object
+  return delete object.key;
+  
 }
